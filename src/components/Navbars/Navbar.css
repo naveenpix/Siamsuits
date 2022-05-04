@@ -1,0 +1,42 @@
+.center-search{
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+div#basic-navbar-nav {
+    justify-content: right;
+}
+.order-searchdrop-nav span {
+    color: #000;
+    font-size: 14px;
+}
+.order-searchdrop-nav a{
+    color:#000;
+}
+.center-search form {
+    background: #eee;
+    box-shadow: none;
+    border-radius: 10px;
+}
+.navbar .navbar-nav .notification-box .dropdown-toggle:after{
+   display:none;
+}
+.notification-box a svg {
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: 8px;
+    fill: #1C4D8F;
+}
+.navbar-expand-lg .navbar-nav .profile-box  .dropdown-menu {
+    position: absolute;
+    left: -100px;
+}
+ .navbar-nav .nav-item.profile-box .dropdown-menu:before,  .navbar-nav .nav-item.profile-box .dropdown-menu:after {
+    right:12px;
+    left: initial;
+}
+a.mr-2.logomain {
+    position: relative;
+    z-index: 11;
+}
